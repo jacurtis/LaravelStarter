@@ -16,6 +16,17 @@
         "lodash": "^4.17.13",
         "resolve-url-loader": "^2.3.1",
         "sass": "^1.15.2",
-        "sass-loader": "^7.1.0"
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "@inertiajs/inertia": "^0.1.7",
+        "@inertiajs/inertia-vue": "^0.1.2",
+        "inertia-vue": "^0.3.0",
+        "popper.js": "^1.16.0",
+        "portal-vue": "^2.1.7",
+        "tailwindcss": "^1.1.4",
+        "vue": "^2.6.11",
+        "vue-meta": "^2.3.1"
     }
 }

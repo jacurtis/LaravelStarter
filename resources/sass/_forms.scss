@@ -1,0 +1,65 @@
+.form-label {
+    margin-bottom: 0.5rem;
+    display: block;
+    color: $grey-darkest;
+    user-select: none;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    padding: 0.5rem;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    color: $grey-darkest;
+    background-color: $white;
+    font-family: $font-family-sans;
+    border-radius: 0.25rem;
+    text-align: left;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+
+    &:focus,
+    &.focus {
+        border-color: $primary;
+        box-shadow: 0 0 0 1px $primary;
+    }
+
+    &::placeholder {
+        color: $grey-dark;
+        opacity: 1;
+    }
+}
+
+.form-select {
+    padding-right: 1.5rem;
+
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQCAYAAAAMJL+VAAAABGdBTUEAALGPC/xhBQAAAQtJREFUOBG1lEEOgjAQRalbGj2OG9caOACn4ALGtfEuHACiazceR1PWOH/CNA3aMiTaBDpt/7zPdBKy7M/DCL9pGkvxxVp7KsvyJftL5rZt1865M+Ucq6pyyF3hNcI7Cuu+728QYn/JQA5yKaempxuZmQngOwEaYx55nu+1lQh8GIatMGi+01NwBcEmhxBqK4nAPZJ78K0KKFAJmR3oPp8+Iwgob0Oa6+TLoeCvRx+mTUYf/FVBGTPRwDkfLxnaSrRwcH0FWhNOmrkWYbE2XEicqgSa1J0LQ+aPCuQgZiLnwewbGuz5MGoAhcIkCQcjaTBjMgtXGURMVHC1wcQEy0J+Zlj8bKAnY1/UzDe2dbAVqfXn6wAAAABJRU5ErkJggg==');
+    background-size: 0.7rem;
+    background-repeat: no-repeat;
+    background-position: right 0.7rem center;
+
+    &::-ms-expand {
+        opacity: 0;
+    }
+}
+
+.form-error {
+    color: $error;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+    border-color: #ef5753;
+
+    &:focus {
+        box-shadow: 0 0 0 1px config('colors.red');
+    }
+}

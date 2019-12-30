@@ -1,0 +1,111 @@
+module.exports = {
+  theme: {
+    colors: {
+      transparent: 'transparent',
+      black: '#22292f',
+      brave: {
+        white: '#FFFFFF',
+        fog: '#E9E9EA',
+        boulder: '#3B586A',
+        graphite: '#2E4756',
+
+      },
+      grey: {
+        darkest: '#3d4852',
+        darker: '#606f7b',
+        dark: '#8795a1',
+        default: '#b8c2cc',
+        light: '#dae1e7',
+        lighter: '#f1f5f8',
+        lightest: '#f8fafc',
+      },
+      white: '#ffffff',
+      red: {
+        darkest: '#3b0d0c',
+        darker: '#621b18',
+        dark: '#cc1f1a',
+        default: '#e3342f',
+        light: '#ef5753',
+        lighter: '#f9acaa',
+        lightest: '#fcebea',
+      },
+      orange: {
+        darkest: '#462a16',
+        darker: '#613b1f',
+        dark: '#de751f',
+        default: '#f6993f',
+        light: '#faad63',
+        lighter: '#fcd9b6',
+        lightest: '#fff5eb',
+      },
+      yellow: {
+        darkest: '#453411',
+        darker: '#684f1d',
+        dark: '#f2d024',
+        default: '#ffed4a',
+        light: '#fff382',
+        lighter: '#fff9c2',
+        lightest: '#fcfbeb',
+      },
+      green: {
+        darkest: '#0f2f21',
+        darker: '#1a4731',
+        dark: '#1f9d55',
+        default: '#38c172',
+        light: '#51d88a',
+        lighter: '#a2f5bf',
+        lightest: '#e3fcec',
+      },
+      teal: {
+        darkest: '#0d3331',
+        darker: '#20504f',
+        dark: '#38a89d',
+        default: '#4dc0b5',
+        light: '#64d5ca',
+        lighter: '# a0f0ed ',
+        lightest: '#e8fffe',
+      },
+      blue: {
+        darkest: '#12283a',
+        darker: '#1c3d5a ',
+        dark: '#2779bd',
+        default:'#3490dc',
+        light: '#6cb2eb',
+        lighter: '#bcdefa',
+        lightest: '#eff8ff',
+      },
+      indigo: {
+        darkest: '#191e38',
+        darker: '#2f365f',
+        dark: '#5661b3',
+        default: '#6574cd',
+        light: '#7886d7',
+        lighter: '#b2b7ff',
+        lightest: '#e6e8ff',
+      },
+      purple: {
+        darkest: '#21183c',
+        darker: '#382b5f',
+        dark: '#794acf',
+        default: '#9561e2',
+        light: '#a779e9',
+        lighter: '#d6bbfc',
+        lightest: '#f3ebff',
+      },
+      pink: {
+        darkest: '#451225',
+        darker: '#6f213f',
+        dark: '#eb5286',
+        default: '#f66d9b',
+        light: '#fa7ea8',
+        lighter: '#ffbbca',
+        lightest: '#ffebef',
+      }
+    },
+    extend: {}
+  },
+  variants: {
+    textColor: ['hover', 'focus', 'group-hover']
+  },
+  plugins: []
+}
