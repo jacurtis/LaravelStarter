@@ -34768,15 +34768,27 @@ module.exports = function(module) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"./Auth/Login": [
+		"./resources/js/Pages/Auth/Login.vue",
+		0,
+		2
+	],
+	"./Auth/Login.vue": [
+		"./resources/js/Pages/Auth/Login.vue",
+		0,
+		2
+	],
 	"./Dashboard": [
 		"./resources/js/Pages/Dashboard.vue",
-		1,
-		0
+		3,
+		0,
+		1
 	],
 	"./Dashboard.vue": [
 		"./resources/js/Pages/Dashboard.vue",
-		1,
-		0
+		3,
+		0,
+		1
 	]
 };
 function webpackAsyncContext(req) {
